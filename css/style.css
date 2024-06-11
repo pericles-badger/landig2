@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+ }
+/*Colores*/
+:root {
+    --color__principal: #00ff15;
+    --color__secundario: #ff7272;
+    --color__terciario: blue;
+    /*colores básicos*/
+    --color__blanco: #ffffff;   
+    --color__negro: #000000;   
+}
+
+nav{
+    background-color: var(--color__secundario);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+  color: var(--color__blanco);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 14px;
+  font-family: tiny5-regular;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    font-family: pt-sans-regular;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: var(--color__blanco);
+    font-size: 17px;
+}
+
+a:hover{
+    background-color: var(--color__terciario);
+    transition: .5s;
+}
